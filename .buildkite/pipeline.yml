@@ -1,0 +1,4 @@
+steps:
+  - command: "./build_the_things.sh"
+
+  - command: "./test_the_things.sh"
