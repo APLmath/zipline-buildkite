@@ -1,1 +1,0 @@
-echo "Test test test"
