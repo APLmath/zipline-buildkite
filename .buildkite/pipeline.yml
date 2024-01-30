@@ -1,4 +1,2 @@
 steps:
-  - command: "./build.sh"
-
-  - command: "./test.sh"
+  - command: "bazel run //:generate_steps | buildkite-agent pipeline upload"
